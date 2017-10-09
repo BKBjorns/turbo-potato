@@ -1,0 +1,302 @@
+#container{
+    margin: 0 auto;
+    width: 960px;
+    background-color: #f3f3f1;
+}
+
+
+
+/*       Header        */
+
+header{
+    margin-bottom: 20px;
+}
+
+#headerimg{
+    width: 100%;
+    margin-bottom: -4px;
+    position: relative;
+}
+
+#mainnav{
+    font-family: 'Lao MN';
+    text-align: center;
+    background-color: #4f6a85;
+    padding: 10px;
+    
+}
+
+#mainnav ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+#mainnav ul li{
+    display: inline;
+    list-style: none;
+    padding: 15px;
+    
+}
+
+#mainnav ul li a {
+    text-decoration: none;
+    color: #f3f3f1;
+    font-size: 20px;
+}
+
+#mainnav ul li a:hover{
+    color: #83c1b6;
+}
+
+
+
+#mainnav a.active{
+   color: #83c1b6;
+}
+
+
+
+/*       Articles --  Home page       */
+
+h3{
+    color: #4f6a85;
+    font-family: 'Open Sans';
+    margin: 20px 10px 10px;
+}
+
+#newsdivparent{
+    overflow: hidden;
+    width: 100%;
+}
+
+
+#newsdiv{
+    width: 33.333%;
+    float: right;
+
+}
+
+
+#newsimg{
+    width: 100%;
+
+    
+}
+
+#newsdivtext{  
+    text-align: center;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+
+#newsdivtext a{
+    font-family: 'Lao MN';
+    margin: 0;
+    color: #4f6a85;
+    font-size: 16px;
+   
+}
+
+#newsdivtext a:hover{
+    color: #83c1b6;
+}
+
+p{
+    margin: 0;
+    font-family: 'Playfair Display';
+}
+
+
+
+
+/*        Book of the month --- Home page     */
+
+#bookofthemonthdiv{
+    overflow: hidden;
+    background-color: #4f6a85;
+    border-radius: 30px;
+    margin: 20px 30px 50px;
+    padding: 30px;
+    color: #f3f3f1;
+
+}
+
+#bookofthemonthdiv h3{
+    margin: 0;
+    color: #f3f3f1;
+}
+
+
+#imgbookofthemonth{
+    float: right;
+    width: 25%;
+}
+
+#bookofthemonthdiv a{
+    text-decoration: none;
+    color: #f3f3f1;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#bookofthemonthdiv a:hover{
+    color: #83c1b6;
+}
+
+
+
+
+
+/*      About us      */
+
+#aboutustextdiv{
+    margin: 0px 10px 40px;
+    
+}
+
+#aboutustextdiv h3{
+    margin: 0;
+}
+
+
+#aboutusimg{
+    width: 50%;
+    float: right;
+    padding: 10px;
+}
+
+#aboutustextdiv p{
+    margin-top: 10px;
+}
+
+
+
+
+/*         Search for books - Browse books page      */
+
+#browseform{
+    margin: 0px 10px 0px;
+}
+
+.submitbutton{
+    background-color: #4f6a85;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #f3f3f1;
+}
+
+
+
+/*         Tables - Browse books page + My books page      */
+
+table{
+    width: 50%;
+    font-family: 'Open Sans';
+    margin: 20px 10px 40px;
+}
+
+table tr th{
+    text-align: left;
+    font-size: 16px;
+    color: #4f6a85;
+}
+
+table tr td{
+    font-size: 12px;
+}
+
+
+td a{
+   text-decoration: none;
+    color: #f3f3f1; 
+    background-color: #4f6a85;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+ 
+/*         Contact form - Contact page      */
+
+h4{
+    font-family: 'Open Sans';
+    color: #4f6a85;
+    margin: 10px 0px 0px;
+    font-size: 14px;
+}
+
+textarea{
+    margin-bottom: 15px;
+
+}
+
+#contactformcontent form{
+    margin: 0 10px 40px;
+    
+}
+
+/*           Gallery        */
+
+
+img .gallerypic {
+    height: 20px;
+    color: yellow;
+}
+
+
+/* -------- Footer -------------- */
+
+footer{
+    padding: 30px 10px 10px;
+    background-color: #4f6a85;
+}
+
+#footerimgdiv{
+    overflow: hidden;
+}
+
+#footerimg{
+    width: 100%;
+}
+
+#footerimgdiv ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#logodiv{
+    float: left;
+    width: 50%;
+}
+
+#icondiv{
+    float: right;
+    text-align: right;
+}
+
+#icondiv ul li{
+    float: right;
+    width: 15%;
+    padding: 0 5px;
+}
+
+#iconface{
+    width: 100%;
+}
+
+#iconmail{
+    width: 110%;
+    padding-top: 5px;
+}
+
+
+footer p{
+    font-family: 'Playfair Display';
+    color: #f3f3f1;
+    font-size: 10px;
+}
