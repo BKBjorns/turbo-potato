@@ -23,7 +23,7 @@
                    
                 </div>
                 
-                <p>Copyright 2017, All rights reserved Birna Karen Björnsdóttir
+                <p>Copyright 2017, All rights reserved, Karen Björnsdóttir
                 </p>
             </footer>
         </div>
